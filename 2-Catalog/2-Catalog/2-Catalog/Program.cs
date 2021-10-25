@@ -70,20 +70,15 @@ namespace _2_Catalog
 
             File.WriteAllText(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\Catalog.json", JsonConvert.SerializeObject(catalogo));
 
+           
+              
+            
+            System.Xml.Serialization.XmlSerializer writer = new System.Xml.Serialization.XmlSerializer(typeof(List<category>));
 
+            System.IO.FileStream file = System.IO.File.Create(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\Catalog.xml");
 
-
-
-
-            string json = File.ReadAllText(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\prueba.json");
-            XmlNode xml = JsonConvert.DeserializeXmlNode(json);
-
-
-            //xml.Save(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\Catalog.xml");
-            XmlTextWriter xmlW = new XmlTextWriter(Console.Out);
-            xmlW.Formatting = System.Xml.Formatting.Indented;
-
-            xml.WriteContentTo(xmlW);
+            writer.Serialize(file, catalogo);
+            
 
 
 
@@ -109,18 +104,20 @@ namespace _2_Catalog
         
     }
 
-   
-    class category
-    {
-        public int ID { get; set; }
-        public string NAME { get; set; }
-        public string DESCRIPTION { get; set; }
+    
 
-        //public product[] PRODUCTS { get; set; }
-        public List<product> PRODUCTS { get; set; }
+
+    public class category
+    {
+         public int ID { get; set; }
+         public string NAME { get; set; }
+         public string DESCRIPTION { get; set; }
+
+        
+         public List<product> PRODUCTS { get; set; }
     }
 
-    class product
+    public class product
     {
         public int ID { get; set; }
         public int CATEGORY { get; set; }
