@@ -1,0 +1,6 @@
+A:\Documents\2 - Visual Studio 2019\3-Random\3-Random\3-Random\bin\Release\3-Random.exe.config
+A:\Documents\2 - Visual Studio 2019\3-Random\3-Random\3-Random\bin\Release\3-Random.exe
+A:\Documents\2 - Visual Studio 2019\3-Random\3-Random\3-Random\bin\Release\3-Random.pdb
+A:\Documents\2 - Visual Studio 2019\3-Random\3-Random\3-Random\obj\Release\3-Random.csproj.CoreCompileInputs.cache
+A:\Documents\2 - Visual Studio 2019\3-Random\3-Random\3-Random\obj\Release\3-Random.exe
+A:\Documents\2 - Visual Studio 2019\3-Random\3-Random\3-Random\obj\Release\3-Random.pdb
