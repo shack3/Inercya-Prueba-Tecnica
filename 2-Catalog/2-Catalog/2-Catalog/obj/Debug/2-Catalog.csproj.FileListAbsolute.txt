@@ -1,7 +1,6 @@
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\2-Catalog.exe.config
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\2-Catalog.exe
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\2-Catalog.pdb
-A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\CsvHelper.dll
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\Microsoft.Bcl.HashCode.dll
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\System.Buffers.dll
@@ -9,7 +8,6 @@ A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\De
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\System.Numerics.Vectors.dll
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\System.Threading.Tasks.Extensions.dll
-A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\CsvHelper.xml
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\Microsoft.Bcl.HashCode.xml
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\System.Buffers.xml
@@ -21,3 +19,5 @@ A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\obj\De
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\obj\Debug\2-Catalog.csproj.CoreCompileInputs.cache
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\obj\Debug\2-Catalog.exe
 A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\obj\Debug\2-Catalog.pdb
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\Newtonsoft.Json.dll
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\2-Catalog\2-Catalog\bin\Debug\Newtonsoft.Json.xml

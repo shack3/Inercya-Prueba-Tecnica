@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Data;
 using System.Collections.Generic;
-using System.Linq;
+using System.Xml.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-
+using Newtonsoft.Json;
+using System.Xml;
 
 
 namespace _2_Catalog
@@ -14,9 +15,10 @@ namespace _2_Catalog
     {
         static void Main(string[] args)
         {
-
-            catalog catalogo = new catalog();
-            List<category> categoriesList = new List<category>();
+            
+            
+            
+            List<category> catalogo = new List<category>();
             List<product> productsList = new List<product>();
             
 
@@ -33,10 +35,11 @@ namespace _2_Catalog
                 {
                     ID = Int32.Parse(rawData[0]),
                     NAME = rawData[1],
-                    DESCRIPTION = rawData[2]
+                    DESCRIPTION = rawData[2],
+                    PRODUCTS = new List<product>()
                 };
 
-                categoriesList.Add(category);
+                catalogo.Add(category);
             }
 
             for(int i=1; i<productosString.Length; i++)
@@ -52,6 +55,36 @@ namespace _2_Catalog
 
                 productsList.Add(product);
             }
+
+            for(int i=0; i<catalogo.Count; i++)
+            {
+                for (int j = 0; j < productsList.Count; j++)
+                {
+                    if (productsList[j].CATEGORY == catalogo[i].ID)
+                    {
+                        
+                        catalogo[i].PRODUCTS.Add(productsList[j]);
+                    }
+                }
+            }
+
+            File.WriteAllText(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\Catalog.json", JsonConvert.SerializeObject(catalogo));
+
+
+
+
+
+
+            string json = File.ReadAllText(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\prueba.json");
+            XmlNode xml = JsonConvert.DeserializeXmlNode(json);
+
+
+            //xml.Save(@"A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\2-Catalog\Catalog.xml");
+            XmlTextWriter xmlW = new XmlTextWriter(Console.Out);
+            xmlW.Formatting = System.Xml.Formatting.Indented;
+
+            xml.WriteContentTo(xmlW);
+
 
 
 
@@ -72,21 +105,19 @@ namespace _2_Catalog
 
             return lines;
         }
+
+        
     }
 
-
-    class catalog
-    {
-        public category[] CATEGORIES { get; set; }
-    }
-
+   
     class category
     {
         public int ID { get; set; }
         public string NAME { get; set; }
         public string DESCRIPTION { get; set; }
 
-        public product[] PRODUCTS { get; set; }
+        //public product[] PRODUCTS { get; set; }
+        public List<product> PRODUCTS { get; set; }
     }
 
     class product
