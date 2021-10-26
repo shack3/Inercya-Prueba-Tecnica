@@ -105,8 +105,6 @@ namespace _2_Catalog
     }
 
     
-
-
     public class category
     {
          public int ID { get; set; }

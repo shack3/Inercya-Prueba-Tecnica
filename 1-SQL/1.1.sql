@@ -1,0 +1,1 @@
+SELECT * FROM  db_inercya.products WHERE db_inercya.products.Discontinued=1;
