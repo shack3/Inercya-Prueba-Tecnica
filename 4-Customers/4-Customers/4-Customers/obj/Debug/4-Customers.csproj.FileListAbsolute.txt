@@ -1,0 +1,7 @@
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\bin\Debug\4-Customers.exe.config
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\bin\Debug\4-Customers.exe
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\bin\Debug\4-Customers.pdb
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\obj\Debug\4-Customers.csproj.AssemblyReference.cache
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\obj\Debug\4-Customers.csproj.CoreCompileInputs.cache
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\obj\Debug\4-Customers.exe
+A:\Documents\0 - GIT\Inercya-Prueba-Tecnica\4-Customers\4-Customers\4-Customers\obj\Debug\4-Customers.pdb
