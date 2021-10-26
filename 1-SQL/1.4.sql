@@ -8,4 +8,4 @@ UNION ALL
 		FROM emp
         INNER JOIN employees e ON emp.EmployeeID = e.ReportsTo
 )
-SELECT * FROM emp;
+SELECT FirstName, LastName FROM emp;
