@@ -1,11 +1,11 @@
-CREATE SCHEMA `BaseDatos`;
 
-CREATE TABLE BaseDatos.customers(
-	Id INTEGER UNIQUE NOT NULL,
-    Name VARCHAR(30) NOT NULL,
-    Address VARCHAR(30) NOT NULL,
-	City VARCHAR(30) NOT NULL,
-    Country VARCHAR(30) NOT NULL,
-    PostalCode INTEGER,
-    Phone VARCHAR(30)
+
+CREATE TABLE `Y4BswmLq2r`.customers(
+	Id VARCHAR(5) UNIQUE NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    Address VARCHAR(60) NOT NULL,
+	City VARCHAR(50) NOT NULL,
+    Country VARCHAR(50) NOT NULL,
+    PostalCode VARCHAR(15),
+    Phone VARCHAR(20)
 );
